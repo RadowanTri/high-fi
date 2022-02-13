@@ -614,7 +614,7 @@
     margin-left: -6px;
 }
 
-.menu ul li {
+.menu li ul li {
     display: block;
     float: none;
     background: none;
@@ -659,6 +659,11 @@
     padding: 0.25rem 1.5rem;
 }
 
+.header-area .navbar-nav .h-icon.active,
+.nav-pills button.active {
+    color: #fff !important;
+    background: var(--s-blue-color) !important;
+}
 
 
 

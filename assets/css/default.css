@@ -1003,11 +1003,6 @@ a.t14 {
     color: var(--s-blue-color);
 }
 
-.header-area .navbar-nav .h-icon.active,
-.nav-pills button.active {
-    color: #fff !important;
-    background: var(--s-blue-color) !important;
-}
 
 .active {
   color:var(--s-blue-color);
