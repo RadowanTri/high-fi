@@ -1,0 +1,88 @@
+
+.header-area .navbar .navbar-nav .nav-item {
+    margin-right: 40px;
+    position: relative;
+    z-index: 99;
+}
+
+.header-area .navbar .navbar-nav .nav-item:last-child {
+    margin-right: 0px;
+}
+
+.header-area .navbar-nav .nav-link,
+.header-area .login>a,
+.header-area a {
+    font-weight: 700;
+    font-size: 18px;
+    color: var(--text-color);
+    padding: 0px;
+    position: relative;
+
+}
+
+.header-area .navbar-nav .h-icon:hover {
+    background: var(--s-blue-color);
+}
+
+.header-area .navbar-nav .h-icon {
+    height: 53px;
+    width: 53px;
+    line-height: 53px;
+    border-radius: 50%;
+    display: flex;
+    background: var(--ligt-blue-color);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-area .navbar-nav .h-icon i {
+    color: var(--white);
+    font-size: 22px;
+}
+
+.header-area .navbar-nav .nav-item .submenu {
+    position: absolute;
+    background: #E9E9E9;
+    min-width: 170px;
+    width: 100%;
+    padding: 10px 15px;
+    text-align: center;
+    top: 110%;
+    left: -85%;
+    opacity: 0;
+    visibility: hidden;
+    transition: .3s;
+
+}
+
+.header-area .navbar-nav .nav-item:hover>.submenu {
+    opacity: 1;
+    visibility: visible;
+    top: 100%;
+}
+
+.header-area .navbar-nav .nav-item .submenu li a {
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--text-color);
+    display: block;
+    border-bottom: 2px solid #FFFFFF;
+    padding: 7px 0px;
+}
+
+.header-area .navbar-nav .nav-item .submenu li:last-child a {
+    border-bottom: none;
+}
+
+.header-area .navbar-nav .nav-link.active,
+.header-area .navbar-nav .nav-link:focus,
+.header-area .navbar-nav .nav-link:hover,
+.header-area a:hover {
+    color: var(--s-blue-color);
+
+}
+
+.header-area .navbar-nav .dropdown-menu .nav-link {
+    color: var(--paragraph-color);
+}
