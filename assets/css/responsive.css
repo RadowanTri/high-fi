@@ -180,6 +180,26 @@
         font-size: 20px;
         line-height: 25px;
     }
+    .chevron-icon a,
+    .sell-wrapper .left-arrow a,
+    .appartment-slider.owl-theme .owl-nav [class*=owl-] {
+        height: 40px;
+        width: 40px;
+    }
+       .appartment-slider.owl-theme .owl-nav [class*=owl-] {
+           top: -50px;
+           font-size: 17px;
+
+       }
+
+       .appartment-slider .owl-nav button.owl-next {
+           right: 0%;
+       }
+
+       .appartment-slider .owl-nav button.owl-prev {
+           left: inherit;
+           right: 60px;
+       }
 
 
 
@@ -211,10 +231,11 @@
     }
     .chevron-icon a i,
     .sell-wrapper .left-arrow a i {
-        font-size: 18px;
+        font-size: 17px;
     }
     .chevron-icon a,
-        .sell-wrapper .left-arrow a {
+    .sell-wrapper .left-arrow a,
+    .appartment-slider.owl-theme .owl-nav [class*=owl-] {
             height: 40px;
             width: 40px;
     }
@@ -246,7 +267,12 @@
           margin: 0px;
           margin-right: 15px;
       }
-
+      .villa-wrapper {
+          position: relative;
+          width: 100%;
+      }
+   
+   
 
 
 }
