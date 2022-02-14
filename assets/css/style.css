@@ -461,17 +461,12 @@
     padding-bottom: 10px;
 }
 .vill-w-img img{
-  max-width: 200px;
-  margin-right: 15px;
   display: inline-block;
   border-radius: 7px;
-  -webkit-border-radius: 7px;
-  -moz-border-radius: 7px;
-  -ms-border-radius: 7px;
-  -o-border-radius: 7px;
 }
 .villa-wrapper{
     position: relative;
+    width: 95%;
 }
 .villa-wrapper .chevron-icon {
     display: inline-block;
@@ -670,7 +665,6 @@
 .appartment-slider.owl-carousel .owl-item img {
     max-width: 100%;
     width: auto;
-    margin: 0 auto;
 }
 
 
@@ -698,11 +692,11 @@
     -o-transform: translateY(-50%);
 }
 .appartment-slider  .owl-nav button.owl-next {
-    right: -7%;
+    right: -11%;
 }
 
 .appartment-slider  .owl-nav button.owl-prev {
-    left: -7%;
+    left: -11%;
 }
 .appartment-slider.owl-theme .owl-nav .disabled {
     opacity: .0;
