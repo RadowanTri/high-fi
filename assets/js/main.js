@@ -15,7 +15,7 @@ $(document).ready(function($) {
     // Banner slider
         var $appartmentSlider = $(".appartment-slider");
         $appartmentSlider.owlCarousel({
-            loop: false,
+            loop: true,
             nav: true,
             navText: [
             '<i class="fa fa-chevron-left"></i>',
