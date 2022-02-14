@@ -103,7 +103,13 @@
         outline: 0;
         box-shadow: 0 0 0 0rem;
     }
-
+        .menu li {
+            margin-right: 20px;
+        }
+        .menu li a {
+            font-weight: 700;
+            font-size: 16px;
+        }
 
     /* font-size */
     
@@ -180,6 +186,7 @@
         font-size: 20px;
         line-height: 25px;
     }
+    .header-area .menu .h-icon,
     .chevron-icon a,
     .sell-wrapper .left-arrow a,
     .appartment-slider.owl-theme .owl-nav [class*=owl-] {
