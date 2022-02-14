@@ -16,6 +16,7 @@
         rel="stylesheet">
     <!--=== Bootstrap 5 ===-->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/richtext.min.css">
     <!--=== Owl carousel 2.3.4===-->
     <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
     <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
@@ -118,17 +119,32 @@
                                                  <div class="sell-b">
 
                                                     <div class="villa-wrapper pt-20 pb-20">
-                                                        <div class="vill-w-img">
-                                                            <img src="assets/img/living/image.png" alt="">
-                                                            <img src="assets/img/living/image-1.png" alt="">
-                                                            <img src="assets/img/living/image-2.png" alt="">
-                                                        </div>
-                                                        <div class="chevron-icon">
-                                                            <a href="#">
-                                                                <i class="fas fa-chevron-right"></i>
-                                                            </a>
-                                                        </div>
                                                         
+                                                            <div
+                                                                class="appartment-slider com-slider owl-carousel
+                                                                owl-theme">
+                                                                <div class="vill-w-img">
+                                                                    <img src="assets/img/living/image.png" alt="">
+                                                                </div>
+                                                                
+                                                                <div class="vill-w-img">
+                                                                    <img src="assets/img/living/image-1.png" alt="">
+                                                                </div>
+                                                                <div class="vill-w-img">
+                                                                    <img src="assets/img/living/image-2.png" alt="">
+                                                                </div>
+                                                                <div class="vill-w-img">
+                                                                    <img src="assets/img/living/image.png" alt="">
+                                                                </div>
+                                                                
+                                                                <div class="vill-w-img">
+                                                                    <img src="assets/img/living/image-1.png" alt="">
+                                                                </div>
+                                                                <div class="vill-w-img">
+                                                                    <img src="assets/img/living/image-2.png" alt="">
+                                                                </div>
+                                                            </div>
+                                                      
                                                     </div>
                                                      <p class="pb-15">Rustic Village Apartment provides resort style swimming pool,
                                                          wading pool for children, tennis courts, basketball Aliceyaaacourts,
@@ -198,57 +214,13 @@
                                                          <p class="t14 text-decoration-none">20:09 10/25/2021</p>
                                                      </div>
                                                  </div>
-                                                 <div class="text-center mt-25">
-                                                     <div class="chevron-icon">
-                                                         <a href="#">
-                                                             <i class="fas fa-chevron-down"></i>
-                                                         </a>
-                                                     </div>
-                                                 </div>
 
                                                  <div class="comment-wr mt-20">
                                                      <h3 class="t26">
                                                      </h3>
                                                      <h3 class="t26 mb-15">Your Comment</h3>
                                                      <form action="">
-                                                         <div class="card">
-                                                             <div class="card-header">
-                                                                 <a href="#">
-                                                                     <img src="assets/img/icons/t.png" alt="t">
-                                                                 </a>
-                                                                 <a href="#">
-                                                                     <img src="assets/img/icons/b.png" alt="t">
-                                                                 </a>
-                                                                 <a href="#">
-                                                                     <img src="assets/img/icons/i.png" alt="t">
-                                                                 </a>
-                                                                 <a href="#">
-                                                                     <img src="assets/img/icons/u.png" alt="t">
-                                                                 </a>
-                                                                 <a href="#">
-                                                                     <img src="assets/img/icons/a.png" alt="t">
-                                                                 </a>
-                                                                 <a href="#">
-                                                                     <img src="assets/img/icons/imgs.png" alt="t">
-                                                                 </a>
-                                                                 <a href="#">
-                                                                     <img src="assets/img/icons/link.png" alt="t">
-                                                                 </a>
-                                                                 <a href="#">
-                                                                     <img src="assets/img/icons/p.png" alt="t">
-                                                                 </a>
-                                                                 <a href="#">
-                                                                     <img src="assets/img/icons/la.png" alt="t">
-                                                                 </a>
-                                                                 <a href="#">
-                                                                     <img src="assets/img/icons/numbulet.png" alt="t">
-                                                                 </a>
-
-                                                             </div>
-                                                             <div class="card-body">
-                                                                 <textarea class="form-control"></textarea>
-                                                             </div>
-                                                         </div>
+                                                         <textarea class="content" name="example"></textarea>
                                                          <div class="text-end">
                                                              <button type="submit" class="submit-btn">
                                                                  <img src="assets/img/icons/submit.png" alt="">
@@ -368,12 +340,19 @@
     <script src="assets/js/popper.min.js"></script>
     <!--=== Bootstrap 5 js ===-->
     <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.richtext.min.js"></script>
+    
     <!--=== owl carousel ===-->
     <script type="text/javascript" src="assets/js/owl.carousel.min.js"></script>
      <!--=== magnific-popup ===-->
      <script type="text/javascript" src="assets/js/magnific-popup.min.js"></script>
     <!--=== Main js ===-->
     <script src="assets/js/main.js"></script>
+    <script>
+        $(document).ready(function() {
+        $('.content').richText();
+        });
+    </script>
 </body>
 
 </html>
