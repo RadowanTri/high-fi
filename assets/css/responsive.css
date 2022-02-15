@@ -22,7 +22,7 @@
      .profile-wrapper .form-horizontal .control-group .control-label {
          text-align: right;
      }
-     .message-content h3 {
+     .message-content .message-c-title {
          padding-right: 70px;
      }
      .hero-area h1 {
@@ -61,10 +61,7 @@
           max-width: 150px;
           margin-right: 10px;
       }
-      .h-area .container ,
-      .profile-area .container {
-            max-width: 767px;
-       }
+   
 }
 
 
@@ -157,12 +154,12 @@
     .filter-post .message-content {
         margin-left: 0px;
         padding-left: 0px;
-        margin-top: 20px;
+        /* margin-top: 20px; */
     }
     .flex-wc {
-        flex-direction: row;
+        flex-direction: column;
         min-height: auto;
-        justify-content: end;
+        align-items: baseline;
     }
 
     .h-area {
@@ -206,6 +203,9 @@
        .appartment-slider .owl-nav button.owl-prev {
            left: inherit;
            right: 60px;
+       }
+       .read-more {
+           padding-top: 10px;
        }
 
 
@@ -277,6 +277,21 @@
       .villa-wrapper {
           position: relative;
           width: 100%;
+      }
+
+
+      /* new */
+      .filter-post .message-content>.message-c-title {
+          padding-top: 0px;
+      }
+      .message-content>.active-title {
+          padding-top: 0px;
+      }
+      .appartment-img {
+          margin-bottom: 15px;
+      }
+      .trade-info .appartment-img {
+          flex-basis: auto;
       }
    
    
