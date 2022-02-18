@@ -3,15 +3,6 @@ $(document).ready(function($) {
     $("[data-background").each(function() {
         $(this).css("background-image", "url(" + $(this).attr("data-background") + ")")
     });
-    //   var header = $(".header-area");
-    //     $(window).on('scroll', function () {
-    //         if ($(this).scrollTop() < 1) {
-    //         header.removeClass("nav-fixed");
-    //         } else {
-    //         header.addClass("nav-fixed");
-    //         }
-    //     });
-     // smartSpeed: 5000,
     // Banner slider
         var $appartmentSlider = $(".appartment-slider");
         $appartmentSlider.owlCarousel({
@@ -40,5 +31,10 @@ $(document).ready(function($) {
             }
         });
         // rich text
-         $('.content').richText();
+         $(function() {
+            $('.content').each(function() {
+                $(this).richText();  
+            });
+        });
+        
 }(jQuery));
