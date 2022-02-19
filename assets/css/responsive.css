@@ -5,6 +5,9 @@
     .pr-100 {
         padding-right: 100px;
     }
+    .hero-area h1 {
+        font-size: 60px;
+    }
 }
 
 
@@ -103,7 +106,7 @@
     /* font-size */
     .t26 {
         font-size: 20px;
-        padding-bottom: 10px;
+        /* padding-bottom: 10px; */
     }
     .solved h3,
     .glad-to-h h2 {
@@ -190,6 +193,19 @@
     }
     .appartment-img {
         margin-bottom: 15px;
+    }
+    .post-main-content {
+        padding-top: 20px;
+        padding-bottom: 15px;
+    }
+    .replies-content {
+        padding-top: 15px;
+    }
+    .sell-wrapper .reply-wr {
+        padding: 13px 0px;
+    }
+    .reply-post-content {
+        margin-top: 10px;
     }
 }
 
@@ -304,6 +320,14 @@
     }
     .trade-info .appartment-img {
         flex-basis: auto;
+    }
+    .richText .richText-editor {
+        height: 150px;
+        max-height: 100%;
+        padding: 10px;
+    }
+    .richText .richText-toolbar ul li a {
+        padding: 2px 7px;
     }
 }
 

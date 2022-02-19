@@ -112,10 +112,8 @@
 
 .header-area .menu li ul li {
     display: block;
-    float: none;
-    background: none;
     margin: 0;
-    padding: 0;
+    padding: 0px 10px;
 }
 
 .header-area .menu ul li a {
@@ -900,6 +898,9 @@
     font-family: 'Montserrat', sans-serif;
     overflow: auto;
     background: transparent;
+    height: 200px;
+    max-height: 100%;
+    padding: 15px;
 }
 
 .richText .richText-toolbar ul li a {
