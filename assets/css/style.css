@@ -50,7 +50,7 @@
     font-size: 18px;
     color: var(--text-color);
     position: relative;
-    padding: 0px;
+    padding: 5px 0px;
     transition: all 0.2s ease-in-out 0s;
     white-space: nowrap;
 }
@@ -122,7 +122,7 @@
     color: var(--text-color);
     display: block;
     border-bottom: 2px solid #FFFFFF;
-    padding: 7px 0px;
+    padding: 4px 0px;
 }
 
 .header-area .menu ul li:last-child a {
