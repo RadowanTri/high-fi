@@ -12,7 +12,7 @@
 
 @media (min-width: 992px) and (max-width: 1367px) {
     .header-area .navbar-brand>img {
-        max-width: 100%;
+        max-height: 116px;
     }
     .sell-wrapper .sell-content {
         margin-left: 100px;
@@ -96,6 +96,9 @@
     .menu li a {
         font-weight: 700;
         font-size: 16px;
+    }
+    .header-area .navbar-brand>img {
+        max-width: 200px;
     }
     /* font-size */
     .t26 {
@@ -213,7 +216,7 @@
         display: none;
     }
     .header-area .navbar-toggler i {
-        color: var(--s-primary-color);
+        color: #000;
     }
     .header-area .navbar-toggler:focus {
         text-decoration: none;

@@ -5,11 +5,7 @@
     background: #FFFFFF;
     right: 0;
     z-index: 99;
-}
-
-.header-area .navbar-brand>img {
-    max-height: 116px;
-    max-width: 200px;
+    padding: 10px 0px;
 }
 
 .header-area .menu .h-icon:hover {
