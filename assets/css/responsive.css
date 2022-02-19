@@ -93,10 +93,7 @@
 }
 
 @media (min-width: 320px) and (max-width: 991px) {
-    .header-area {
-        padding: 0px;
-    }
-    .menu li a {
+    .header-area .menu li>a {
         font-weight: 700;
         font-size: 16px;
     }
@@ -139,8 +136,9 @@
     .sell-wrapper .sell-content {
         margin-left: 0px;
     }
+    .filter-post .message-card,
     .message-card {
-        padding: 20px 10px;
+        padding: 15px 13px;
         flex-direction: column;
     }
     .filter-post .message-content {
@@ -261,7 +259,7 @@
         display: none;
     }
     .header-area .menu>li {
-        margin-bottom: 10px;
+        margin-bottom: 7px;
         margin-right: 0px;
     }
     .header-area .menu li .fa-chevron-down {
