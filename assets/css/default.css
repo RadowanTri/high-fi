@@ -2,8 +2,14 @@
 Last change:    26/01/22 [fixed Float bug, vf]
 
 -------------------------------------------------------------------*/
+
+
 /* css variables */
+
+
 /* @import url(../css/partials/_header&footer.css); */
+
+
 /*------------------------------------------------------------------
 [Table of contents]
 
@@ -19,27 +25,28 @@ Last change:    26/01/22 [fixed Float bug, vf]
 ==========================================
 */
 
+
 /* CSS Variables */
 
 :root {
-    --ligt-blue-color:#CCE5FF;
-    --s-primary-color:#312783;;
+    --ligt-blue-color: #CCE5FF;
+    --s-primary-color: #312783;
+    ;
     --s-blue-color: #007FFF;
     --title-color: #141313;
-    --white:#fff;
+    --white: #fff;
     --text-color: #000000;
     --light-b-color: #5F5757;
     --yellow-color: #FFDA55;
-    --btn-color:#312783;
-    --paragraph-color:#282626;
+    --btn-color: #312783;
+    --paragraph-color: #282626;
     --border-color: #201f1f17;
-    --back-bg:#E5E5E5;
+    --back-bg: #E5E5E5;
     --gradient-color: linear-gradient(90deg, #4458dc 0%, #854fee 100%);
     --shadow-color: 0px 10px 30px rgba(118, 85, 225, 0.3);
     --box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.05);
-    --input-bg:#CCE5FF;
+    --input-bg: #CCE5FF;
 }
-
 
 html {
     scroll-behavior: smooth;
@@ -51,9 +58,7 @@ body {
     line-height: 1.5;
     font-family: 'Montserrat', sans-serif;
     height: 100%;
-    
 }
-
 
 h1,
 h2,
@@ -87,10 +92,10 @@ input {
     border: none;
 }
 
-
-*::after, *::before{
-  transition: all 0.3s ease 0s !important;
-  border: none;
+*::after,
+*::before {
+    transition: all 0.3s ease 0s !important;
+    border: none;
 }
 
 .btn:focus {
@@ -109,7 +114,7 @@ button:focus {
 .form-control:focus {
     border: 1px solid transparent;
     outline: none;
-    box-shadow:none;
+    box-shadow: none;
 }
 
 a:focus {
@@ -134,17 +139,16 @@ img {
     max-width: 100%;
 }
 
-
-
 p,
-.t-14{
+.t-14 {
     font-weight: 300;
     font-size: 14px;
     line-height: 1.75;
     color: var(--paragraph-color);
     margin-bottom: 0;
 }
-.box_shadow{
+
+.box_shadow {
     background: #FFFFFF;
     box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.05);
     border-radius: 10px;
@@ -595,7 +599,6 @@ p,
     padding-right: 25px;
 }
 
-
 .pr-110 {
     padding-right: 110px;
 }
@@ -747,33 +750,41 @@ p,
 .pb-150 {
     padding-bottom: 150px;
 }
-.p-35{
+
+.p-35 {
     padding: 35px;
 }
+
 .underline {
     text-decoration: underline;
 }
-.f-left{
+
+.f-left {
     float: left;
 }
+
 .f-right {
     float: right;
 }
-.fix{
+
+.fix {
     overflow: hidden;
 }
-.text-black{
+
+.text-black {
     color: #000000;
 }
+
 
 /* font size */
 
 .t24 {
-   font-weight: 500;
-   font-size: 23px;
-   line-height: 29px;
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 29px;
     color: #000000
 }
+
 .sell-b .title,
 .t18 {
     font-weight: 600;
@@ -792,21 +803,24 @@ p,
     font-size: 15px;
     line-height: 1.5;
 }
+
 .t26 {
     font-weight: 600;
     font-size: 26px;
     line-height: 1.5;
     color: #000000;
 }
+
 a.t14 {
     text-decoration: underline;
 }
+
 .t14 {
-   font-weight: normal;
-   font-size: 14px;
-   line-height: 17px;
-   text-align: center;
-   color: #000000;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #000000;
 }
 
 .t12 {
@@ -814,34 +828,40 @@ a.t14 {
     line-height: 15px;
     color: #000000;
 }
-.light-t{
+
+.light-t {
     color: var(--light-b-color) !important;
 }
-.text-color{
+
+.text-color {
     color: var(--text-color);
 }
 
-.form-control::placeholder{
+.form-control::placeholder {
     color: #000000;
 }
+
 .form-control:focus,
-.form-control{
-    background:#CCE5FF !important;
+.form-control {
+    background: #CCE5FF !important;
     border: none;
     font-size: 18px;
     color: #000000;
     padding-left: 20px;
 }
+
 .h-area {
-     min-height: calc(100vh - 216px);
+    min-height: calc(100vh - 216px);
     z-index: 1;
     position: relative;
     background: #FCFCFC;
     padding: 40px 0px;
 }
+
 .online {
     position: relative;
 }
+
 .online::after {
     content: "";
     width: 15px;
@@ -852,6 +872,7 @@ a.t14 {
     top: 0;
     right: 0px;
 }
+
 .bg-yellow {
     background: #FFDA55;
 }
@@ -859,17 +880,19 @@ a.t14 {
 .bg-light-blue {
     background: #CCE5FF;
 }
+
 .badge-yellow {
     background: var(--yellow-color);
-     border-radius: 50%;
-     width: 25px;
-     height: 25px;
-     color: #000000;
-     text-align: center;
-     font-weight: 600;
-     font-size: 18px;
-     display: inline-block;
-     margin-left: 5px;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    color: #000000;
+    text-align: center;
+    font-weight: 600;
+    font-size: 17px;
+    display: inline-block;
+    margin-left: 5px;
 }
 
 .mes-seen.active {
@@ -883,17 +906,18 @@ a.t14 {
     transform: translateY(-50%);
 }
 
-.bor-t{
-   border-top: 1px solid #717171;
+.bor-t {
+    border-top: 1px solid #717171;
 }
-.bor-b{
-   border-bottom: 1px solid #717171;
+
+.bor-b {
+    border-bottom: 1px solid #717171;
 }
-.blue-c{
+
+.blue-c {
     color: var(--s-blue-color);
 }
 
-
 .active {
-  color:var(--s-blue-color);
+    color: var(--s-blue-color);
 }

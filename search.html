@@ -12,102 +12,93 @@
     <link rel="stylesheet" href="assets/css/all.min.css">
     <!--=== Google Fonts ===-->
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,900&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,600;1,700&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,900&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,600;1,700&display=swap" rel="stylesheet">
     <!--=== Bootstrap 5 ===-->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!--=== richtext===-->
+    <link rel="stylesheet" href="assets/css/richtext.min.css">
     <!--=== Owl carousel 2.3.4===-->
     <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
     <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
-    <!--=== Magnific PopUp ===-->
-    <link rel="stylesheet" href="assets/css/magnific-popup.min.css">
     <!--=== Main Css ===-->
     <link rel="stylesheet" href="assets/css/default.css">
     <!--=== Style & Responsive  Css ===-->
     <link rel="stylesheet" href="assets/css/style.css">
     <!--=== Responsive Css ===-->
     <link rel="stylesheet" href="assets/css/responsive.css">
-
 </head>
 
 <body>
+    <!-- header start -->
+    <header class="header-area">
+        <nav class="navbar navbar-expand-md">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="assets/img/logo.png" alt="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-times"></i>
+            </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="menu navbar-nav ms-auto align-items-md-center align-items-start">
+                        <li>
+                            <a href="living-info.html"> Living</a>
+                            <i class="fas fa-chevron-down" id="menuActive1"></i>
+                            <ul class="living-sub-menu sub-menu">
+                                <li>
+                                    <a href="appertment-info.html">Apartment </a>
+                                </li>
+                                <li>
+                                    <a href="trade-info.html">Trade </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="study.html">Study</a>
+                            <i class="fas fa-chevron-down" id="menuActive2"></i>
+                            <ul class="study-sub-menu sub-menu">
+                                <li>
+                                    <a href="professor.html">Courses </a>
+                                </li>
+                                <li>
+                                    <a href="find-partner.html">Find Partner  </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="help.html">Help</a>
+                        </li>
+                        <li>
+                            <div class="dropdown">
+                                <a class="dropdown-toggle h-icon   " id="dropdownMenuButton1" data-bs-toggle="dropdown" href="login.html">
+                                    <i class="fas fa-user-alt"></i>
+                                </a>
+                                <ul class="dropdown-menu shadow" aria-labelledby="dropdownMenuButton1">
+                                    <li>
+                                        <a class="dropdown-item" href="#">
+                                            <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i> Profile
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">
+                                            <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i> Logout
+                                        </a>
+                                    </li>
 
- <!-- header start -->
- <header class="header-area">
-     <nav class="navbar navbar-expand-md">
-         <div class="container">
-             <a class="navbar-brand" href="index.html">
-                 <img src="assets/img/logo.png" alt="logo">
-             </a>
-             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                 aria-label="Toggle navigation">
-                 <i class="fas fa-bars"></i>
-                 <i class="fas fa-times"></i>
-             </button>
-             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                 <ul class="menu navbar-nav ms-auto align-items-md-center align-items-start">
-                     <li class="dropdown">
-                         <a href="living-info.html"" class=" dropdown-toggle dropdown-toggle" id="dropdownMenuButton2"
-                             data-bs-toggle="dropdown" aria-expanded="false">
-                             Living
-                         </a>
-                         <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
-                             <li>
-                                 <a class=dropdown-item" href="appertment-info.html">Apartment </a>
-                             </li>
-                             <li>
-                                 <a class=dropdown-item" href="trade-info.html">Trade </a>
-                             </li>
-                         </ul>
-                     </li>
-                     <li class="dropdown">
-                         <a href="study.html" class=" dropdown-toggle dropdown-toggle" id="dropdownMenuButton3"
-                             data-bs-toggle="dropdown" aria-expanded="false">
-                             Study
-                         </a>
-                         <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton3">
-                             <li>
-                                 <a class=dropdown-item" href="professor.html">Courses </a>
-                             </li>
-                             <li>
-                                 <a class=dropdown-item" href="find-partner.html">Find Partner </a>
-                             </li>
-                         </ul>
-                     </li>
-                     <li>
-                         <a href="help.html">Help</a>
-                     </li>
-                     <li>
-                         <div class="dropdown">
-                             <a class="dropdown-toggle h-icon" id="dropdownMenuButton1" data-bs-toggle="dropdown"
-                                 href="login.html">
-                                 <i class="fas fa-user-alt"></i>
-                             </a>
-                             <ul class="dropdown-menu shadow" aria-labelledby="dropdownMenuButton1">
-                                 <li><a class="dropdown-item" href="#">
-                                         <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i> Profile
-                                     </a>
-                                 </li>
-                                 <li><a class="dropdown-item" href="#">
-                                         <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i> Logout
-                                     </a>
-                                 </li>
-
-                             </ul>
-                         </div>
-
-                     </li>
-                     <li>
-                         <a class="h-icon active" href="search.html">
-                             <i class="fas fa-search"></i>
-                         </a>
-                     </li>
-             </div>
-         </div>
-     </nav>
- </header>
- <!-- header end -->
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <a class="h-icon active" href="search.html">
+                                <i class="fas fa-search"></i>
+                            </a>
+                        </li>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- header end -->
 
     <main>
         <div class="h-area search-area d-flex align-items-center">
@@ -131,7 +122,7 @@
                         </div>
                     </div>
                 </div>
-                
+
             </div>
         </div>
     </main>
@@ -152,15 +143,17 @@
     <!--============= Jquery-3.6.0 =============-->
     <script src="assets/js/jquery-3.6.0.min.js"></script>
     <!--=== Popper  v2.9.2 js ===-->
-    <script src="assets/js/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js">
+    </script>
+    <!-- rich js -->
+    <script src="assets/js/jquery.richtext.min.js"></script>
     <!--=== Bootstrap 5 js ===-->
     <script src="assets/js/bootstrap.min.js"></script>
     <!--=== owl carousel ===-->
-    <script type="text/javascript" src="assets/js/owl.carousel.min.js"></script>
-     <!--=== magnific-popup ===-->
-     <script type="text/javascript" src="assets/js/magnific-popup.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
     <!--=== Main js ===-->
     <script src="assets/js/main.js"></script>
+
 </body>
 
 </html>

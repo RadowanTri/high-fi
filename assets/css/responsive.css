@@ -1,10 +1,16 @@
-@media (min-width: 1199px) {
+@media (min-width: 1368px) {
     .pr-50 {
         padding-right: 50px;
     }
     .pr-100 {
         padding-right: 100px;
     }
+}
+
+
+/* Medium Layout: 1280px. */
+
+@media (min-width: 992px) and (max-width: 1367px) {
     .header-area .navbar-brand>img {
         max-width: 100%;
     }
@@ -26,18 +32,25 @@
     .hero-area h1 {
         font-size: 70px;
     }
-}
-
-
-/* Medium Layout: 1280px. */
-
-@media (min-width: 992px) and (max-width: 1299px) {
+    .profile-wrapper .nav .nav-link {
+        font-size: 16px;
+        padding: 5px 15px;
+    }
+    .filter-h .filter-btn,
+    .success-btn,
+    .post-btn {
+        padding: 5px 20px;
+    }
+    .search-wrapper .form-control,
+    .search-wrapper .s-btn {
+        height: 50px;
+        font-size: 25px;
+    }
+    .t26 {
+        font-size: 24px;
+    }
     .header-area .menu>li {
         margin-right: 25px;
-    }
-    .pr-100,
-    .pr-50 {
-        padding: 0;
     }
     .vill-w-img img {
         max-width: 150px;
@@ -51,6 +64,16 @@
     .profile-wrapper .nav {
         padding: 12px 15px;
     }
+    .glad-to-h h2 {
+        font-size: 27px;
+        line-height: 35px;
+    }
+    .solved h3 {
+        font-size: 24px;
+    }
+    .sell-wrapper .sell-content {
+        margin-left: 60px;
+    }
 }
 
 
@@ -61,34 +84,14 @@
         max-width: 150px;
         margin-right: 10px;
     }
+    .header-area .menu>li {
+        margin-right: 25px;
+    }
 }
 
 @media (min-width: 320px) and (max-width: 991px) {
     .header-area {
         padding: 0px;
-    }
-    .header-area .navbar-toggler[aria-expanded="true"] .fa-bars {
-        display: none;
-    }
-    .header-area .navbar-toggler[aria-expanded="false"] .fa-bars {
-        display: block;
-    }
-    .header-area .navbar-toggler[aria-expanded="true"] .fa-times {
-        display: block;
-    }
-    .header-area .navbar-toggler[aria-expanded="false"] .fa-times {
-        display: none;
-    }
-    .header-area .navbar-toggler i {
-        color: var(--s-primary-color);
-    }
-    .header-area .navbar-toggler:focus {
-        text-decoration: none;
-        outline: 0;
-        box-shadow: 0 0 0 0rem;
-    }
-    .menu li {
-        margin-right: 20px;
     }
     .menu li a {
         font-weight: 700;
@@ -144,10 +147,6 @@
         min-height: auto;
         align-items: baseline;
     }
-    .h-area {
-        /* min-height:100%; */
-        padding: 25px 0px;
-    }
     .profile-wrapper .form-horizontal textarea.form-control,
     .profile-wrapper .form-horizontal .c-wrapper {
         width: 100%;
@@ -198,30 +197,57 @@
     .header-area {
         position: fixed;
     }
-    main {
+    .profile-area {
         padding-top: 100px;
     }
-    .menu li {
+    .header-area .navbar-toggler[aria-expanded="true"] .fa-bars {
+        display: none;
+    }
+    .header-area .navbar-toggler[aria-expanded="false"] .fa-bars {
         display: block;
     }
-    .header-area .menu li .sub-menu {
-        position: relative;
-        left: 0px;
+    .header-area .navbar-toggler[aria-expanded="true"] .fa-times {
         display: block;
-        visibility: visible;
-        opacity: 1;
+    }
+    .header-area .navbar-toggler[aria-expanded="false"] .fa-times {
+        display: none;
+    }
+    .header-area .navbar-toggler i {
+        color: var(--s-primary-color);
+    }
+    .header-area .navbar-toggler:focus {
+        text-decoration: none;
+        outline: 0;
+        box-shadow: 0 0 0 0rem;
     }
     .header-area .menu li:hover .sub-menu {
         display: none;
+    }
+    .header-area .menu li .sub-menu {
+        position: relative;
+        left: 10px;
+        display: block;
+        visibility: visible;
+        opacity: 1;
+        transition: all 0.2s ease-out;
+        top: 0;
+        padding: 0px;
     }
     .header-area .menu li .living-sub-menu,
     .header-area .menu li .study-sub-menu {
         display: none;
     }
+    .header-area .menu>li {
+        margin-bottom: 10px;
+        margin-right: 0px;
+    }
     .header-area .menu li .fa-chevron-down {
-        display: inline-block;
+        line-height: 30px;
         padding-left: 10px;
+        text-align: center;
+        display: inline-block;
         cursor: pointer;
+        transition: all 0.3s ease;
     }
     .chevron-icon a i,
     .sell-wrapper .left-arrow a i {
