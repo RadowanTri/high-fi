@@ -37,20 +37,21 @@ $(document).ready(function($) {
         });
     });
 
+    if (window.innerWidth <= 767) {
+        $('#menuActive1').click(function() {
+            $('.living-sub-menu').slideToggle("fast");
+        });
 
-    window.addEventListener('resize', function(event) {
-        var newWidth = window.innerWidth;
-        if (window.innerWidth <= 767) {
-            $('#menuActive1').click(function() {
-                $('.living-sub-menu').slideToggle("fast");
-            });
+        $('#menuActive2').click(function() {
+            $('.study-sub-menu').slideToggle("fast");
+        });
 
-            $('#menuActive2').click(function() {
-                $('.study-sub-menu').slideToggle("fast");
-            });
+    }
 
-        }
-    });
+    // window.addEventListener('resize', function(event) {
+    //     var newWidth = window.innerWidth;
+
+    // });
 
 
 

@@ -149,7 +149,7 @@
 /* hero-area */
 
 .hero-area {
-    background-size: 100%;
+    background-size: 100% 100%;
     background-position: center;
     background-repeat: no-repeat;
     /* min-height: calc(100vh - 180px); */
