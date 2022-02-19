@@ -851,7 +851,8 @@ a.t14 {
 }
 
 .h-area {
-    min-height: calc(100vh - 180px);
+    /* min-height: calc(100vh - 180px); */
+    min-height: 100vh;
     z-index: 1;
     position: relative;
     background: #FCFCFC;

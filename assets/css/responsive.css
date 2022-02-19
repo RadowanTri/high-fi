@@ -200,6 +200,7 @@
     .header-area {
         position: fixed;
     }
+    .h-area,
     .profile-area {
         padding-top: 100px;
     }
