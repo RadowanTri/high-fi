@@ -18,6 +18,8 @@
     <!--=== Owl carousel 2.3.4===-->
     <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
     <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+    <!--=== Magnific PopUp ===-->
+    <link rel="stylesheet" href="assets/css/magnific-popup.min.css">
     <!--=== Main Css ===-->
     <link rel="stylesheet" href="assets/css/default.css">
     <!--=== Style & Responsive  Css ===-->
@@ -55,19 +57,44 @@
                             </ul>
                         </li>
                         <li>
-                            <a href="study.html">Study</a>
+                            <a href="living-info.html"> Living</a>
                             <i class="fas fa-chevron-down" id="menuActive2"></i>
                             <ul class="study-sub-menu sub-menu">
                                 <li>
-                                    <a href="professor.html">Courses </a>
+                                    <a href="appertment-info.html">Apartment </a>
                                 </li>
                                 <li>
-                                    <a href="find-partner.htm">Find Partner  </a>
+                                    <a href="trade-info.html">Trade </a>
                                 </li>
                             </ul>
                         </li>
+
+                        <li>
+                            <a href="study.html">Study</a>
+                        </li>
                         <li>
                             <a href="help.html">Help</a>
+                        </li>
+                        <li>
+                            <div class="dropdown  online ">
+                                <a class="dropdown-toggle h-icon active" id="dropdownMenuButton1" data-bs-toggle="dropdown" href="login.html" aria-expanded="false">
+                                    <i class="fas fa-user-alt"></i>
+                                </a>
+                                <ul class="dropdown-menu sub-menu shadow" aria-labelledby="dropdownMenuButton1">
+                                    <li>
+                                        <a class="dropdown-item " href="#">
+                                            <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i> Profile
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">
+                                            <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i> Logout
+                                        </a>
+                                    </li>
+
+                                </ul>
+                            </div>
+
                         </li>
                         <li>
                             <a class=" h-icon" href="login.html">
@@ -87,6 +114,10 @@
     <!-- header end -->
 
     <main>
+        <!-- <div class="banner">
+            <img src="assets/img/banner.png"" alt=" banner">
+        </div>
+         -->
         <div class="hero-area" data-background="assets/img/banner.jpg">
             <div class="container">
                 <h1>Know Your Life @Rochester</h1>
@@ -116,9 +147,17 @@
     <script src="assets/js/bootstrap.min.js"></script>
     <!--=== owl carousel ===-->
     <script type="text/javascript" src="assets/js/owl.carousel.min.js"></script>
+    <!--=== magnific-popup ===-->
+    <script type="text/javascript" src="assets/js/magnific-popup.min.js"></script>
     <!--=== Main js ===-->
     <script src="assets/js/main.js"></script>
-
+    <script>
+        // $(document).ready(function() {
+        //     $('#menuActive').click(function() {
+        //         $('.sub-menu').slideToggle("fast");
+        //     });
+        // });
+    </script>
 </body>
 
 </html>

@@ -37,22 +37,21 @@ $(document).ready(function($) {
         });
     });
 
-    // sidebar submenu open close js code
-    let indexHtml = document.querySelector(".index");
-    indexHtml.onclick = function() {
-        navLinks.classList.toggle("show4");
+    if (window.innerWidth <= 767) {
+        window.addEventListener('resize', function(event) {
+            var newWidth = window.innerWidth;
+        });
+        $('#menuActive1').click(function() {
+            $('.living-sub-menu').slideToggle("fast");
+        });
+
+        $('#menuActive2').click(function() {
+            $('.study-sub-menu').slideToggle("fast");
+        });
+
     }
-    let htmlcssArrow = document.querySelector(".living-arrow");
-    htmlcssArrow.onclick = function() {
-        navLinks.classList.toggle("show1");
-    }
-    let moreArrow = document.querySelector(".more-arrow");
-    moreArrow.onclick = function() {
-        navLinks.classList.toggle("show2");
-    }
-    let jsArrow = document.querySelector(".js-arrow");
-    jsArrow.onclick = function() {
-        navLinks.classList.toggle("show3");
-    }
+
+
+
 
 }(jQuery));
