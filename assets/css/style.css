@@ -162,6 +162,7 @@
 .forget-t{
     color: var(--s-blue-color);
     text-decoration: none;
+    font-size: 14px;
 }
 .hero-area h1 {
     font-size: 30px;
@@ -238,8 +239,10 @@
     right: 0px;
     z-index: 9;
 }
-
-.search-wrapper .search-img img {
+.search-img{
+    display: inline-block;
+}
+ .search-img img {
     max-width: 170px;
 }
 
