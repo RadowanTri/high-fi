@@ -45,6 +45,10 @@ $(document).ready(function($) {
     $('#menuActive2').click(function() {
         $('.study-sub-menu').slideToggle("fast");
     });
+    $('#menuActive3').click(function() {
+        $('.login-sub-menu').slideToggle("fast");
+    });
+
 
 
 

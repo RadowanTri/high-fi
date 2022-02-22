@@ -159,7 +159,10 @@
     position: relative;
     z-index: 1;
 }
-
+.forget-t{
+    color: var(--s-blue-color);
+    text-decoration: none;
+}
 .hero-area h1 {
     font-size: 30px;
     font-weight: 700;

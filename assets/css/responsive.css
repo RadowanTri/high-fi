@@ -254,6 +254,10 @@
         top: 0;
         padding: 0px;
     }
+    .header-area .menu li .login-sub-menu.sub-menu {
+        top: 2px;
+    }
+    .header-area .menu li .login-sub-menu,
     .header-area .menu li .living-sub-menu,
     .header-area .menu li .study-sub-menu {
         display: none;

@@ -39,49 +39,61 @@
                     <img src="assets/img/logo.png" alt="logo">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                   <i class="fas fa-bars"></i>
-                   <i class="fas fa-times"></i>
-               </button>
+                    <i class="fas fa-bars"></i>
+                    <i class="fas fa-times"></i>
+                </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="menu navbar-nav ms-auto align-items-md-center align-items-start">
-                        <li class="dropdown">
-                            <a href="living-info.html" " class=" dropdown-toggle dropdown-toggle " id="dropdownMenuButton2 "
-                               data-bs-toggle="dropdown " aria-expanded="false ">
-                               Living
-                           </a>
-                           <ul class="dropdown-menu " aria-labelledby="dropdownMenuButton2 ">
-                               <li>
-                                   <a class=dropdown-item" href="appertment-info.html">Apartment </a>
+                        <li>
+                            <a href="living-info.html"> Living</a>
+                            <i class="fas fa-chevron-down" id="menuActive1"></i>
+                            <ul class="living-sub-menu sub-menu">
+                                <li>
+                                    <a href="appertment-info.html">Apartment </a>
+                                </li>
+                                <li>
+                                    <a href="trade-info.html">Trade </a>
+                                </li>
+                            </ul>
                         </li>
                         <li>
-                            <a class=dropdown-item " href="trade-info.html ">Apartment </a>
-                               </li>
-                           </ul>
-                       </li>
-                       <li class="dropdown ">
-                           <a href="study.html "" class=" dropdown-toggle dropdown-toggle" id="dropdownMenuButton3" data-bs-toggle="dropdown" aria-expanded="false"> Study
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton3">
+                            <a href="study.html">Study</a>
+                            <i class="fas fa-chevron-down" id="menuActive2"></i>
+                            <ul class="study-sub-menu sub-menu">
                                 <li>
-                                    <a class=dropdown-item " href="professor.html ">Courses </a>
-                               </li>
-                               <li>
-                                   <a class=dropdown-item" href="find-partner.html">Find Partner </a>
+                                    <a href="professor.html">Courses </a>
+                                </li>
+                                <li>
+                                    <a href="find-partner.html">Find Partner  </a>
                                 </li>
                             </ul>
                         </li>
                         <li>
                             <a href="help.html">Help</a>
                         </li>
-
                         <li>
-                            <a class=" h-icon active" href="login.html">
-                                <i class="fas fa-user-alt"></i>
-                            </a>
+                            <div class="d-flex align-items-center">
+                                <a class=" h-icon" href="login.html">
+                                    <i class="fas fa-user-alt"></i></a>
+                                <i class="fas fa-chevron-down" id="menuActive3"></i>
+                            </div>
+                            
+                                
+                                <ul class="login-sub-menu sub-menu">
+                                    <li>
+                                        <a href="#">
+                                            <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i> Profile
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i> Logout
+                                        </a>
+                                    </li>
+                                </ul>
                         </li>
-
                         <li>
-                            <a class="h-icon " href="search.html">
+                            <a class="h-icon" href="search.html">
                                 <i class="fas fa-search"></i>
                             </a>
                         </li>
@@ -112,12 +124,13 @@
                                 <div class="mb-10 ">
                                     <input type="password" class="form-control" placeholder="Password">
                                 </div>
-                                <div class="text-end">
-                                    <a href="forget.html">Forget Your Passwords?</a>
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <a href="signup.html" class="t14">Sign Up</a>
+                                    <a href="forget.html" class="t14 forget-t">Forget Your Passwords?</a>
                                 </div>
 
                                 <div class="sign-up mt-2">
-                                    <a href="signup.html" class="t14">Sign Up</a>
+                                   
                                 </div>
                                 <div class="sign-in mt-4">
                                     <button type="submit">
